@@ -4,10 +4,16 @@ A pure Go port of the [MikkTSpace](http://www.mikktspace.com/) library for compu
 
 This is a faithful 1:1 translation of the [C implementation](https://github.com/mmikk/MikkTSpace) by Morten S. Mikkelsen. Given identical input, it produces bit-comparable output to the C original.
 
+## Installation
+
+```bash
+go get github.com/gataengine/mikktspace-go
+```
+
 ## Usage
 
 ```go
-import "MikkTSpace-go"
+import "github.com/gataengine/mikktspace-go"
 
 ok := mikktspace.GenTangSpaceDefault(
     func() int { return numTriangles },

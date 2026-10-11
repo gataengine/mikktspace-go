@@ -1,5 +1,7 @@
 # MikkTSpace Go Port Design
 
+> **Status (audit 2026-10-11): Implemented.**
+
 ## Overview
 
 A faithful 1:1 port of the MikkTSpace C library (~1900 lines) to Go. MikkTSpace computes tangent space for normal-mapped meshes and is the industry standard used by Blender, Filament, Unity, Unreal, and others.
